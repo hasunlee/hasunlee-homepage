@@ -1,20 +1,15 @@
 cv:
   name: Hasun Lee
-  label: Computer Vision Engineer
+  headline: Computer Vision Engineer
   email: hasunlee@snu.ac.kr
   location: Seoul, Korea
-  image: ""
-  summary: >
-    Computer vision engineer at StradVision working on 3D perception for multi-fisheye automotive cameras.
-    M.S. in Mechanical Engineering from Seoul National University (INRoL). B.S. in Physics from POSTECH (Magna Cum Laude).
 
   sections:
     Education:
       - institution: Seoul National University
-        location: Seoul, Korea
-        url: https://www.snu.ac.kr/
         area: Mechanical Engineering
-        studyType: M.S.
+        degree: M.S.
+        location: Seoul, Korea
         start_date: 2019-03
         end_date: 2021-08
         highlights:
@@ -22,10 +17,9 @@ cv:
           - "Thesis: Contact Wrench Estimation for Large-Size Operational Aerial Skeleton System with Distributed IMUs"
 
       - institution: Pohang University of Science and Technology (POSTECH)
-        location: Pohang, Korea
-        url: https://www.postech.ac.kr/
         area: Physics
-        studyType: B.S.
+        degree: B.S.
+        location: Pohang, Korea
         start_date: 2014-03
         end_date: 2019-02
         highlights:
@@ -34,8 +28,9 @@ cv:
           - "Thesis: 3D printed Watt balance device and mass measuring with electro-magnetic force"
 
       - institution: Seoul Science High School
+        area: Science
+        degree: High School Diploma
         location: Seoul, Korea
-        studyType: Graduated
         start_date: 2011-03
         end_date: 2014-02
         highlights:
@@ -60,77 +55,77 @@ cv:
       - title: Wrench Estimation of Modular Manipulator with External Actuation and Joint Locking
         authors:
           - Y. Kim
-          - Hasun Lee
+          - "**Hasun Lee**"
           - J. Lee
           - Dongjun Lee
-        publisher: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-        releaseDate: 2023-10-01
+        journal: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        date: 2023-10
 
       - title: Development of Downsized LASDRA with 2-DoF Joint Locking Device
         authors:
-          - Hasun Lee
+          - "**Hasun Lee**"
           - Y. Kim
           - H. Yang
           - Dongjun Lee
-        publisher: Aerial Robotic Systems Physically Interacting with the Environment (AIRPHARO)
-        releaseDate: 2021-10-01
+        journal: Aerial Robotic Systems Physically Interacting with the Environment (AIRPHARO)
+        date: 2021-10
 
       - title: Preliminary Results on Downsized LASDRA System with Joint Locking
         authors:
-          - Hasun Lee
+          - "**Hasun Lee**"
           - Y. Kim
           - H. Yang
           - Dongjun Lee
-        publisher: Ubiquitous Robots (UR)
-        releaseDate: 2021-07-01
+        journal: Ubiquitous Robots (UR)
+        date: 2021-07
 
       - title: Robust Motion Control of Robotic Systems with Environmental Interaction via Data-Driven Inversion of CPG
         authors:
           - S. Park
-          - Hasun Lee
+          - "**Hasun Lee**"
           - Dongjun Lee
-        publisher: International Conference on Control, Automation and Systems (ICCAS)
-        releaseDate: 2020-10-01
+        journal: International Conference on Control, Automation and Systems (ICCAS)
+        date: 2020-10
 
       - title: Preliminary Results on Motion Control of Robotic Systems with Environmental Interaction via Data-Driven Inversion of CPG
         authors:
           - S. Park
-          - Hasun Lee
+          - "**Hasun Lee**"
           - Dongjun Lee
-        publisher: Korea Robotics Society Annual Conference (KRoC)
-        releaseDate: 2020-08-01
+        journal: Korea Robotics Society Annual Conference (KRoC)
+        date: 2020-08
 
       - title: Variable Speed Control Moment Gyro's Gimbal Arrangement Optimization and Control Allocation Improving
         authors:
-          - Hasun Lee
+          - "**Hasun Lee**"
           - S. Park
           - Dongjun Lee
-        publisher: ICROS Annual Conference
-        releaseDate: 2020-07-01
+        journal: ICROS Annual Conference
+        date: 2020-07
 
     Projects:
       - name: Auto Parking Software Mass Production Development
         summary: StradVision — parking space recognition and obstacle detection for automatic parking.
-        highlights:
-          - Main contributor for the object detection feature
         start_date: 2021-09
         end_date: present
+        highlights:
+          - Main contributor for the object detection feature
 
       - name: Very Long, Slender and Light Robot Arm with Distributed Rotor Actuation
         summary: National Research Foundation of Korea — aerial operation and manipulation.
+        start_date: 2020-04
+        end_date: 2021-03
         highlights:
           - Development of joint locking LASDRA system
           - External wrench estimation with multiple IMU sensor fusion using UKF
-        start_date: 2020-04
-        end_date: 2021-03
 
       - name: Attitude Control Algorithm for Satellite with CMG Singularity Avoidance
         summary: Justek Inc.
+        start_date: 2019-04
+        end_date: 2020-03
         highlights:
           - Newton-Euler dynamic analysis and control of variable speed CMG
           - Design optimization of CMG cluster by data-driven method
-        start_date: 2019-04
-        end_date: 2020-03
 
     "Teaching Experience":
       - company: Seoul National University
@@ -140,50 +135,49 @@ cv:
         end_date: 2020-06
         summary: Undergraduate Course — Mechanical System Modeling and Control (Spring 2020)
 
-    "Honors & Awards":
-      - title: 1st Prize
-        awarder: International Astronomy Olympiad (IAO)
-        date: 2010-01-01
-        summary: Ukraine and Kazakhstan, 2010 & 2011
+    Awards:
+      - name: 1st Prize — International Astronomy Olympiad (IAO)
+        date: 2011
+        location: Ukraine, Kazakhstan
+        summary: 2010 and 2011
 
-      - title: National Science & Technology Scholarship (NSTS)
-        awarder: Korea Student Aid Foundation
-        date: 2014-01-01
-        summary: "2014–2018"
+      - name: National Science & Technology Scholarship (NSTS)
+        date: 2014
+        location: Korea Student Aid Foundation
+        summary: 2014–2018
 
     "Extracurricular Activity":
-      - title: Financial Engineering Intern
-        awarder: NH Investment & Securities Co., Ltd.
-        date: 2017-07-01
+      - name: Financial Engineering Intern — NH Investment & Securities
+        date: 2017-07
         summary: Price determining of ELS products by Monte-Carlo method
 
-      - title: Exchange Student
-        awarder: National University of Singapore
-        date: 2016-01-01
-        summary: One semester in Singapore
+      - name: Exchange Student — National University of Singapore
+        date: 2016
+        location: Singapore
+        summary: One semester
 
     Skills:
-      - name: Programming
-        keywords: Python, C/C++, Matlab, ROS, LabVIEW
+      - label: Programming
+        details: Python, C/C++, Matlab, ROS, LabVIEW
 
-      - name: Libraries
-        keywords: PyTorch, OpenCV, NumPy, ONNX
+      - label: Libraries
+        details: PyTorch, OpenCV, NumPy, ONNX
 
-      - name: DevOps
-        keywords: Git, GitHub, Docker
+      - label: DevOps
+        details: Git, GitHub, Docker
 
-      - name: Simulators
-        keywords: CARLA, Gazebo
+      - label: Simulators
+        details: CARLA, Gazebo
 
-      - name: Design
-        keywords: SolidWorks, Onshape
+      - label: Design
+        details: SolidWorks, Onshape
 
-      - name: Operating Systems
-        keywords: Linux, Windows
+      - label: Operating Systems
+        details: Linux, Windows
 
     Languages:
-      - name: Korean
-        summary: Native
+      - label: Korean
+        details: Native
 
-      - name: English
-        summary: Professional working proficiency
+      - label: English
+        details: Professional working proficiency
